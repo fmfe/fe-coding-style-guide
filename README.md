@@ -104,8 +104,11 @@ export default {
 
 ## 数据通信
 **1. 遵循「单向数据流原则」**
+
 **2. 父子组件通信遵循 「props向下传递,事件向上传递」, 避免使用 $this.parent**
+
 **3. 遵循 MVVM 框架的「数据驱动原则」, 减少或者避免DOM操作, 避免使用$set/$refs等 API**
+
 **4. 善用 [「Object.assign」](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) 和解构来赋予对象新值**
 
 ```
