@@ -33,7 +33,7 @@ avatar.png/broker1.png/fxcm-icon.png
 </script>
 ```
 
-**3. css 类命名:** 项目自定义前缀且符合短横线命名法(kebab-case)规则, 组合单词长度不超过5个：
+**3. css 类命名:** 符合短横线命名法(kebab-case)规则, 组合单词长度不超过5个：
 
 ```
 // bad
