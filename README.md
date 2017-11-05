@@ -229,4 +229,4 @@ const copy = { ...original, c: 3}
   }
 ```
 
-**上述规则仅作为参考，如果你对某规则有自己的想法或者想补充规则，可以 [open issue](./.github/ISSUE_TEMPLATE.md).**
+**如果你对某规则有自己的想法或者想补充规则，可以 [open issue](./.github/ISSUE_TEMPLATE.md).**
