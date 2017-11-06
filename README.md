@@ -228,5 +228,8 @@ const copy = { ...original, c: 3}
       render 
   }
 ```
+## JavaScript 抒写规范
+
+参考 [standard](https://github.com/standard/standard) 和 [Airbnb JavaScript Style](https://github.com/airbnb/javascript).
 
 **如果你对某规则有自己的想法或者想补充规则，可以 [open issue](./.github/ISSUE_TEMPLATE.md).**
