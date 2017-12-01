@@ -2,7 +2,6 @@
 Coding style guide of frontend team.
 
 # 参考指南
-> 指南仅供参考
 
 ## 注释
 1. 模块或者组件的关键代码部分添加必要的注释说明
