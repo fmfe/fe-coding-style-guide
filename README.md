@@ -103,6 +103,7 @@ export default {
 ```
 
 ## 数据通信
+**0. mixin 建议只用于增强组件的功能，不介入组件的状态管理和数据来源**
 **1. 遵循「单向数据流原则」**
 
 **2. 父子组件通信遵循 「props向下传递, 事件向上传递」, 且传递层数不超过2层, 避免使用 $this.parent**
@@ -174,7 +175,7 @@ const copy = { ...original, c: 3}
      // 属性顺序
      props
      data
-     hooks(beforeRouteEnter.etc.)
+     hooks(beforeRouteEnter/mixins/fileters/directives.etc.)
      computed
      watch
      methods
